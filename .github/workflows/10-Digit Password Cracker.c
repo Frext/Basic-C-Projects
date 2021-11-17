@@ -2,19 +2,22 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 char AllowedPasswordCharacters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~`!@#$%^&*()_-+={[}]|\\:;\"'<,>.?/"; 
 // I will refer this as "the alphabet".
 
+
 unsigned long long int PasswordCount = 0;
 
-int main(void)  // 10-Digit Password Cracker
+int main(void) // 10-Digit Password Cracker  
 {
   // Assign the length of the alphabet to a variable, so I don't need to call strlen() every time I need the length.
   unsigned int lengthOfTheAlphabet = strlen(AllowedPasswordCharacters);
 
+  // You can add or remove for loops by the digit count you want to print.
   for (unsigned int index0 = 0; index0 < lengthOfTheAlphabet; index0++)
   {
-    char index0_char = AllowedPasswordCharacters[index0];
+    char index0_char = AllowedPasswordCharacters[index0]; // Don't call AllowedPasswordCharacters[indexNUMBER] every time. Instead, use a character.
 
     for (unsigned int index1 = 0; index1 < lengthOfTheAlphabet; index1++)
     {
@@ -52,7 +55,8 @@ int main(void)  // 10-Digit Password Cracker
                     {
                       char index9_char = AllowedPasswordCharacters[index9];
 
-                      printf("%c%c%c%c%c%c%c%c%c%c\n",index0_char,index1_char,index2_char,index3_char,index4_char,index5_char,index6_char,index7_char,index8_char,index9_char);
+                      // You can remove the spaces between the characters. 
+                      printf("%c %c %c %c %c %c %c %c %c %c\n",index0_char,index1_char,index2_char,index3_char,index4_char,index5_char,index6_char,index7_char,index8_char,index9_char);
                       fflush(stdout);
 
                       PasswordCount++;
