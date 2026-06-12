@@ -13,9 +13,12 @@ Run the compiled **.exe** file directly instead of your code editor (IDE) so the
 
 * 🎨 [ASCII Art Keyboard](https://github.com/Frext/Basic-C-Projects/blob/main/.github/workflows/ASCII_Art_Text.c)
   
-  <img width="500" alt="ascii_art_text" src="https://github.com/user-attachments/assets/7fb6e080-fd45-4ab9-8158-04f1ae7163be" />
+  <img width="600" alt="ascii_art_text" src="https://github.com/user-attachments/assets/7fb6e080-fd45-4ab9-8158-04f1ae7163be" />
 
 * 🚌 [Bus Reservation](https://github.com/Frext/Basic-C-Projects/blob/main/.github/workflows/Bus_Reservation_System.c)
+
+  <img width="600" alt="bus_reservation" src="https://github.com/user-attachments/assets/e1b77d61-097e-4102-9bb7-9249bc914199" />
+
 * 🏦 [Banking System](https://github.com/Frext/Basic-C-Projects/blob/main/.github/workflows/Bank_Management_System.c)
 * 📞 [Contacts](https://github.com/Frext/Basic-C-Projects/blob/main/.github/workflows/Contact_Management_System.c)
 * 📝 [Notepad](https://github.com/Frext/Basic-C-Projects/blob/main/.github/workflows/SimpleNotepad.c)
