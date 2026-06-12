@@ -31,6 +31,8 @@ Run the compiled **.exe** file directly instead of your code editor (IDE) so the
 
 * 📅 [Calendar](https://github.com/Frext/Basic-C-Projects/blob/main/.github/workflows/Mini_Calendar.c)
 
+  <img width="600" alt="image" src="https://github.com/user-attachments/assets/1a5e5746-3244-42db-aed3-6d37380d3437" />
+
 ---
 
 **2021**
