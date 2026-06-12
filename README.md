@@ -7,6 +7,8 @@ Because these were my very first steps into programming, the code might contain 
 ## Notable Projects
 Here are some of the most interesting console applications in this repository:
 
+* Make sure you run the compiled .exe directly because it's dynamic, otherwise IDE terminals tend do act weird.
+
 * 🎨 [ASCII Art Keyboard](https://github.com/Frext/Basic-C-Projects/blob/main/.github/workflows/ASCII_Art_Text.c)
 * 🚌 [Bus Reservation](https://github.com/Frext/Basic-C-Projects/blob/main/.github/workflows/Bus_Reservation_System.c)
 * 🏦 [Banking System](https://github.com/Frext/Basic-C-Projects/blob/main/.github/workflows/Bank_Management_System.c)
